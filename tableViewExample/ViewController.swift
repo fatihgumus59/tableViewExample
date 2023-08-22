@@ -16,6 +16,8 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
 
     @IBOutlet weak var tableView: UITableView!
     var superKahraman = [ImageType]()
+    var secilenIsım = ""
+    var secilenGorsel = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -51,7 +53,20 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         }
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        secilenIsım = superKahraman[indexPath.row].title
+        secilenGorsel = superKahraman[indexPath.row].image
+        performSegue(withIdentifier: "toDetailsVc", sender: nil)
+    }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if segue.identifier == "toDetailsVc"{
+            let destinationVc = segue.destination as! DetailsViewController
+            destinationVc.secilenKahramanGorseli = secilenGorsel
+            destinationVc.secilenKahramanIsmi = secilenIsım
+        }
+    }
 
 
 }

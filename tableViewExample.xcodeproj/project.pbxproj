@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		022E98ED2A9534AD0053EFAF /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022E98EC2A9534AD0053EFAF /* DetailsViewController.swift */; };
 		02CFCFE62A842E6A00088D59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CFCFE52A842E6A00088D59 /* AppDelegate.swift */; };
 		02CFCFE82A842E6A00088D59 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CFCFE72A842E6A00088D59 /* SceneDelegate.swift */; };
 		02CFCFEA2A842E6A00088D59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CFCFE92A842E6A00088D59 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		022E98EC2A9534AD0053EFAF /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		02CFCFE22A842E6A00088D59 /* tableViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tableViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02CFCFE52A842E6A00088D59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02CFCFE72A842E6A00088D59 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				02CFCFEE2A842E6B00088D59 /* Assets.xcassets */,
 				02CFCFF02A842E6B00088D59 /* LaunchScreen.storyboard */,
 				02CFCFF32A842E6B00088D59 /* Info.plist */,
+				022E98EC2A9534AD0053EFAF /* DetailsViewController.swift */,
 			);
 			path = tableViewExample;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				02CFCFEA2A842E6A00088D59 /* ViewController.swift in Sources */,
 				02CFCFE62A842E6A00088D59 /* AppDelegate.swift in Sources */,
 				02CFCFE82A842E6A00088D59 /* SceneDelegate.swift in Sources */,
+				022E98ED2A9534AD0053EFAF /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
